@@ -1,8 +1,8 @@
-array = (1..15)
+diap = (1..15)
 a = []
 numbers = []
 
-array.each do |i|
+diap.to_a.each do |i|
 	if i % 3 == 0
 		a.push(i)
 	end
@@ -15,7 +15,7 @@ a.each do |i|
 	end
 end
 
-array.each do |i|
+diap.to_a.each do |i|
 	if i % 5 == 0
 		numbers.push(i)
 	end
