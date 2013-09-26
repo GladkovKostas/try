@@ -9,8 +9,7 @@ diap.to_a.each do |i|
 end
 
 a.each do |i|
-	if i % 3 == 0 and i % 5 == 0
-		else
+	if i % 3 != 0 or i % 5 != 0
 		numbers.push(i)
 	end
 end
@@ -22,6 +21,6 @@ diap.to_a.each do |i|
 end
 
 puts "quantity"
-puts numbers.length
+puts numbers.count
 puts "numbers"
 puts numbers.sort
